@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="RestaurantManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RestaurantManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationHeaderForegroundThemeBrush}">
+        <TextBlock Margin="554,368,520,532" FontSize="40" Text="Restaurant Manager" Foreground="White"/>
+        <TextBlock Margin="586,446,585,459" FontSize="30" Text="Internal Test Version" Foreground="White"/>
+        <TextBlock Margin="148,743,892,167" FontSize="35" FontFamily="Consolas" Height="50" Width="400" Text="**Go To Orders View**" Foreground="White"/>
+        <TextBlock Margin="871,750,169,160" FontSize="35" FontFamily="Consolas" Height="50" Width="400" Text="**Submit Orders**" Foreground="White" />
+    </Grid>
+</Page>

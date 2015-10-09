@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="RestaurantManager.OrderPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RestaurantManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationHeaderForegroundThemeBrush}">
+        <TextBlock Margin="908,89,276,810" Text="Special Requests:" Foreground="White"/>
+        <TextBlock Margin="1166,89,95,831" Text="Order Items:" Foreground="White"/>
+        <TextBlock Margin="161,827,1031,69" Text="**Add To Order**" Foreground="White"/>
+        <TextBlock Margin="1005,824,168,85" Text="**Submit Order**" Foreground="White"/>
+    </Grid>
+</Page>
